@@ -1,0 +1,198 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">31593703</PMID>
+        <DateCompleted>
+            <Year>2020</Year>
+            <Month>01</Month>
+            <Day>15</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2020</Year>
+            <Month>01</Month>
+            <Day>15</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1527-9995</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>135</Volume>
+                    <PubDate>
+                        <Year>2020</Year>
+                        <Month>Jan</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Urology</Title>
+                <ISOAbbreviation>Urology</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Primary Renal Well-differentiated Neuroendocrine Tumor Extending Into the Inferior Vena Cava.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>e2-e4</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="pii" ValidYN="Y">S0090-4295(19)30867-2</ELocationID>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.urology.2019.09.031</ELocationID>
+            <Abstract>
+                <AbstractText>Primary renal neuroendocrine tumors (NETs) are exceedingly rare with roughly 100 reported cases. To the best of our knowledge, this is the first reported case of a primary renal NET with inferior vena caval tumor thrombus. The uniqueness of this case is highlighted by the degree to which vascular invasion occurred.</AbstractText>
+                <CopyrightInformation>Published by Elsevier Inc.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Shantharam</LastName>
+                    <ForeName>G</ForeName>
+                    <Initials>G</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Warren Alpert Medical School, Brown University, Providence, RI. Electronic address: govind_shantharam@brown.edu.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Huang</LastName>
+                    <ForeName>C</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Memorial Sloan Kettering Cancer Center, Department of Urology, New York, NY.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Singla</LastName>
+                    <ForeName>N</ForeName>
+                    <Initials>N</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Memorial Sloan Kettering Cancer Center, Department of Urology, New York, NY.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chen</LastName>
+                    <ForeName>Y</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Memorial Sloan Kettering Cancer Center, Department of Urology, New York, NY.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Russo</LastName>
+                    <ForeName>P</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Memorial Sloan Kettering Cancer Center, Department of Urology, New York, NY.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D002363">Case Reports</PublicationType>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2019</Year>
+                <Month>10</Month>
+                <Day>05</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Urology</MedlineTA>
+            <NlmUniqueID>0366151</NlmUniqueID>
+            <ISSNLinking>0090-4295</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D007668" MajorTopicYN="N">Kidney</DescriptorName>
+                <QualifierName UI="Q000000981" MajorTopicYN="N">diagnostic imaging</QualifierName>
+                <QualifierName UI="Q000473" MajorTopicYN="N">pathology</QualifierName>
+                <QualifierName UI="Q000601" MajorTopicYN="N">surgery</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D007680" MajorTopicYN="N">Kidney Neoplasms</DescriptorName>
+                <QualifierName UI="Q000175" MajorTopicYN="N">diagnosis</QualifierName>
+                <QualifierName UI="Q000473" MajorTopicYN="Y">pathology</QualifierName>
+                <QualifierName UI="Q000601" MajorTopicYN="N">surgery</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008297" MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008875" MajorTopicYN="N">Middle Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009361" MajorTopicYN="N">Neoplasm Invasiveness</DescriptorName>
+                <QualifierName UI="Q000000981" MajorTopicYN="N">diagnostic imaging</QualifierName>
+                <QualifierName UI="Q000473" MajorTopicYN="N">pathology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009392" MajorTopicYN="N">Nephrectomy</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D018358" MajorTopicYN="N">Neuroendocrine Tumors</DescriptorName>
+                <QualifierName UI="Q000175" MajorTopicYN="N">diagnosis</QualifierName>
+                <QualifierName UI="Q000473" MajorTopicYN="Y">pathology</QualifierName>
+                <QualifierName UI="Q000601" MajorTopicYN="N">surgery</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D017131" MajorTopicYN="N">Thrombectomy</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D014057" MajorTopicYN="N">Tomography, X-Ray Computed</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D014682" MajorTopicYN="N">Vena Cava, Inferior</DescriptorName>
+                <QualifierName UI="Q000000981" MajorTopicYN="N">diagnostic imaging</QualifierName>
+                <QualifierName UI="Q000473" MajorTopicYN="Y">pathology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D020246" MajorTopicYN="N">Venous Thrombosis</DescriptorName>
+                <QualifierName UI="Q000000981" MajorTopicYN="N">diagnostic imaging</QualifierName>
+                <QualifierName UI="Q000473" MajorTopicYN="Y">pathology</QualifierName>
+                <QualifierName UI="Q000601" MajorTopicYN="N">surgery</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2019</Year>
+                <Month>09</Month>
+                <Day>10</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2019</Year>
+                <Month>09</Month>
+                <Day>20</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2019</Year>
+                <Month>09</Month>
+                <Day>25</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2019</Year>
+                <Month>10</Month>
+                <Day>9</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2020</Year>
+                <Month>1</Month>
+                <Day>16</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2019</Year>
+                <Month>10</Month>
+                <Day>9</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">31593703</ArticleId>
+            <ArticleId IdType="pii">S0090-4295(19)30867-2</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.urology.2019.09.031</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

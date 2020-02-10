@@ -1,0 +1,69 @@
+PMID- 31593703
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20200115
+LR  - 20200115
+IS  - 1527-9995 (Electronic)
+IS  - 0090-4295 (Linking)
+VI  - 135
+DP  - 2020 Jan
+TI  - Primary Renal Well-differentiated Neuroendocrine Tumor Extending Into the
+      Inferior Vena Cava.
+PG  - e2-e4
+LID - S0090-4295(19)30867-2 [pii]
+LID - 10.1016/j.urology.2019.09.031 [doi]
+AB  - Primary renal neuroendocrine tumors (NETs) are exceedingly rare with roughly 100 
+      reported cases. To the best of our knowledge, this is the first reported case of 
+      a primary renal NET with inferior vena caval tumor thrombus. The uniqueness of
+      this case is highlighted by the degree to which vascular invasion occurred.
+CI  - Published by Elsevier Inc.
+FAU - Shantharam, G
+AU  - Shantharam G
+AD  - Warren Alpert Medical School, Brown University, Providence, RI. Electronic
+      address: govind_shantharam@brown.edu.
+FAU - Huang, C
+AU  - Huang C
+AD  - Memorial Sloan Kettering Cancer Center, Department of Urology, New York, NY.
+FAU - Singla, N
+AU  - Singla N
+AD  - Memorial Sloan Kettering Cancer Center, Department of Urology, New York, NY.
+FAU - Chen, Y
+AU  - Chen Y
+AD  - Memorial Sloan Kettering Cancer Center, Department of Urology, New York, NY.
+FAU - Russo, P
+AU  - Russo P
+AD  - Memorial Sloan Kettering Cancer Center, Department of Urology, New York, NY.
+LA  - eng
+PT  - Case Reports
+PT  - Journal Article
+DEP - 20191005
+PL  - United States
+TA  - Urology
+JT  - Urology
+JID - 0366151
+SB  - IM
+MH  - Humans
+MH  - Kidney/diagnostic imaging/pathology/surgery
+MH  - Kidney Neoplasms/diagnosis/*pathology/surgery
+MH  - Male
+MH  - Middle Aged
+MH  - Neoplasm Invasiveness/diagnostic imaging/pathology
+MH  - Nephrectomy
+MH  - Neuroendocrine Tumors/diagnosis/*pathology/surgery
+MH  - Thrombectomy
+MH  - Tomography, X-Ray Computed
+MH  - Vena Cava, Inferior/diagnostic imaging/*pathology
+MH  - Venous Thrombosis/diagnostic imaging/*pathology/surgery
+EDAT- 2019/10/09 06:00
+MHDA- 2020/01/16 06:00
+CRDT- 2019/10/09 06:00
+PHST- 2019/09/10 00:00 [received]
+PHST- 2019/09/20 00:00 [revised]
+PHST- 2019/09/25 00:00 [accepted]
+PHST- 2019/10/09 06:00 [pubmed]
+PHST- 2020/01/16 06:00 [medline]
+PHST- 2019/10/09 06:00 [entrez]
+AID - S0090-4295(19)30867-2 [pii]
+AID - 10.1016/j.urology.2019.09.031 [doi]
+PST - ppublish
+SO  - Urology. 2020 Jan;135:e2-e4. doi: 10.1016/j.urology.2019.09.031. Epub 2019 Oct 5.
