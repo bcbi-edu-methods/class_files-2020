@@ -1,0 +1,49 @@
+==============================================================
+Welcome to the Body Mass Index (BMI) Calculator and Classifier
+==============================================================
+Imperial [I] or Metric [M]? I
+Weight (lb)? 100
+Height (in)? 62
+
+BMI = 18.29
+Status = Underweight
+
+==============================================================
+Welcome to the Body Mass Index (BMI) Calculator and Classifier
+==============================================================
+Imperial [I] or Metric [M]? I
+Weight (lb)? 120
+Height (in)? 60
+
+BMI = 23.43
+Status = Normal Weight
+
+==============================================================
+Welcome to the Body Mass Index (BMI) Calculator and Classifier
+==============================================================
+Imperial [I] or Metric [M]? M
+Weight (kg)? 70
+Height (cm)? 155
+
+BMI = 29.14
+Status = Overweight
+
+==============================================================
+Welcome to the Body Mass Index (BMI) Calculator and Classifier
+==============================================================
+Imperial [I] or Metric [M]? M
+Weight (kg)? 80
+Height (cm)? 160
+
+BMI = 31.25
+Status = Obese
+
+==============================================================
+Welcome to the Body Mass Index (BMI) Calculator and Classifier
+==============================================================
+Imperial [I] or Metric [M]? M
+Weight (kg)? 120
+Height (cm)? 170
+
+BMI = 41.52
+Status = Extreme or high risk obesity
