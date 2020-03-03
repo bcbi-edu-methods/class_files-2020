@@ -1,0 +1,28 @@
+$ julia methods2020_asg8.jl
+Enter a ClinicalTrials.gov Title: BrUOG L301 With Non-Small Cell Lung Cancer and Bone Metastases
+Length = 62
+First Five Characters = BrUOG
+Includes Numbers? = Yes
+
+Enter another ClinicalTrials.gov Title: Text-Message-Based Depression Prevention for High-Risk Youth in the ED
+Length = 70
+First Five Characters = Text-
+Includes Numbers? = No
+
+Enter another ClinicalTrials.gov Title: Yoga for Type 2 Diabetes
+Length = 24
+First Five Characters = Yoga
+Includes Numbers? = Yes
+
+Enter another ClinicalTrials.gov Title: Sodium Channel Splicing in Heart Failure Trial (SOCS-HEFT) Prospective Study
+Length = 76
+Last Five Characters = Study
+Includes Numbers? = No
+
+Enter another ClinicalTrials.gov Title: A Pilot Study of Fecal Microbiome and Neutrophil Cellular Adhesion Molecules in Patients With Sickle Cell Disease (SCD)
+Length = 119
+Last Five Characters = (SCD)
+Includes Numbers? = No
+
+Enter another ClinicalTrials.gov Title: qqq
+$
