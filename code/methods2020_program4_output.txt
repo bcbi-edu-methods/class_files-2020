@@ -1,0 +1,4 @@
+I don't like you occurs 4 times!
+Dunno occurs 23 times!
+Yes occurs 941 times!
+No occurs 4639 times!
