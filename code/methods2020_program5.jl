@@ -1,72 +1,53 @@
-# methods2020_program5-df.jl
+# methods2020_program5.jl
 # DataFrames
-
-# Read and split file with readlines
-a_file = "/Users/eschen/methods2020/class_files-2020/data/mimic_demo/ADMISSIONS.csv"
-for line in readlines(a_file)
-    field_array = split(line, ",")
-    println("$(field_array[1]) --- $(field_array[2]) --- $(field_array[10])")
-end
-
+# Created: 2020-04-02
 
 # load packages
-# CSV.jl: https://juliadata.github.io/CSV.jl/stable/
-# DataFrames.jl: https://juliadata.github.io/DataFrames.jl/stable/
-println("Loading packages ...")
 using DataFrames
 using CSV
 
-# load files into DataFrame
-println("Loading file ...")
-a_df = CSV.File("/Users/eschen/methods2020/class_files-2020/data/mimic_demo/ADMISSIONS.csv", header=1, footerskip=0) |> DataFrame
+# load data into DataFrames
+# For Mac
+a_df = CSV.File("/Users/eschen/methods2020/class_files-2020/data/mimic_demo/ADMISSIONS.csv", header = 1, footerskip = 0) |> DataFrame
 
-# print first and last 10 rows
-println("\n***FIRST AND LAST 5 ROWS***")
-println(first(a_df, 5))
-println(last(a_df, 5))
+# For Windows
+# a_df = CSV.File("C:\\Users\\eschen\\methods2020\\class_files-2020\\data\\mimic_demo\\ADMISSIONS.csv", header = 1, footerskip = 0) |> DataFrame
 
-# describe 
-println("\n***DESCRIPTION***")
+# describe and show first two lines
 println(describe(a_df))
+println(first(a_df, 2))
 
-# get size
+### Output
 #=
-nrows, ncols = size(a_df)
-for row in 1:nrows
-    if a_df[row, :hospital_expire_flag] .== 1
-       println("$row -> $(a_df[row, :hospital_expire_flag])")
-    end    
-end
+$ julia echen13_program5.jl
+19×8 DataFrame
+│ Row │ variable             │ mean     │ min                                                                                                                   │ median   │ max                       │ nunique │ nmissing │ eltype                 │
+│     │ Symbol               │ Union…   │ Any                                                                                                                   │ Union…   │ Any                       │ Union…  │ Union…   │ Type                   │
+├─────┼──────────────────────┼──────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────────┼───────────────────────────┼─────────┼──────────┼────────────────────────┤
+│ 1   │ row_id               │ 28036.4  │ 12258                                                                                                                 │ 39869.0  │ 41092                     │         │          │ Int64                  │
+│ 2   │ subject_id           │ 28010.4  │ 10006                                                                                                                 │ 40310.0  │ 44228                     │         │          │ Int64                  │
+│ 3   │ hadm_id              │ 152343.0 │ 100375                                                                                                                │ 157235.0 │ 199395                    │         │          │ Int64                  │
+│ 4   │ admittime            │          │ 2102-08-29 07:15:00                                                                                                   │          │ 2202-10-03 01:45:00       │ 129     │          │ String                 │
+│ 5   │ dischtime            │          │ 2102-09-06 16:20:00                                                                                                   │          │ 2202-10-11 16:30:00       │ 129     │          │ String                 │
+│ 6   │ deathtime            │          │ 2105-06-11 02:20:00                                                                                                   │          │ 2192-05-15 19:28:00       │ 40      │ 89       │ Union{Missing, String} │
+│ 7   │ admission_type       │          │ ELECTIVE                                                                                                              │          │ URGENT                    │ 3       │          │ String                 │
+│ 8   │ admission_location   │          │ CLINIC REFERRAL/PREMATURE                                                                                             │          │ TRANSFER FROM SKILLED NUR │ 5       │          │ String                 │
+│ 9   │ discharge_location   │          │ DEAD/EXPIRED                                                                                                          │          │ SNF                       │ 10      │          │ String                 │
+│ 10  │ insurance            │          │ Government                                                                                                            │          │ Private                   │ 4       │          │ String                 │
+│ 11  │ language             │          │ ENGL                                                                                                                  │          │ SPAN                      │ 5       │ 48       │ Union{Missing, String} │
+│ 12  │ religion             │          │ BUDDHIST                                                                                                              │          │ UNOBTAINABLE              │ 10      │ 1        │ Union{Missing, String} │
+│ 13  │ marital_status       │          │ DIVORCED                                                                                                              │          │ WIDOWED                   │ 6       │ 16       │ Union{Missing, String} │
+│ 14  │ ethnicity            │          │ AMERICAN INDIAN/ALASKA NATIVE FEDERALLY RECOGNIZED TRIBE                                                              │          │ WHITE                     │ 9       │          │ String                 │
+│ 15  │ edregtime            │          │ 2104-09-24 12:07:00                                                                                                   │          │ 2202-10-03 01:19:00       │ 92      │ 37       │ Union{Missing, String} │
+│ 16  │ edouttime            │          │ 2104-09-24 18:50:00                                                                                                   │          │ 2202-10-03 03:40:00       │ 92      │ 37       │ Union{Missing, String} │
+│ 17  │ diagnosis            │          │  MITRAL REGURGITATION;CORONARY ARTERY DISEASE\\CORONARY ARTERY BYPASS GRAFT WITH MVR  ? MITRAL VALVE REPLACEMENT /SDA │          │ VOLVULUS                  │ 95      │          │ String                 │
+│ 18  │ hospital_expire_flag │ 0.310078 │ 0                                                                                                                     │ 0.0      │ 1                         │         │          │ Int64                  │
+│ 19  │ has_chartevents_data │ 0.992248 │ 0                                                                                                                     │ 1.0      │ 1                         │         │          │ Int64                  │
+2×19 DataFrame
+│ Row │ row_id │ subject_id │ hadm_id │ admittime           │ dischtime           │ deathtime           │ admission_type │ admission_location        │ discharge_location │ insurance │ language │ religion │ marital_status │ ethnicity              │ edregtime           │ edouttime           │ diagnosis   │ hospital_expire_flag │ has_chartevents_data │
+│     │ Int64  │ Int64      │ Int64   │ String              │ String              │ String⍰             │ String         │ String                    │ String             │ String    │ String⍰  │ String⍰  │ String⍰        │ String                 │ String⍰             │ String⍰             │ String      │ Int64                │ Int64                │
+├─────┼────────┼────────────┼─────────┼─────────────────────┼─────────────────────┼─────────────────────┼────────────────┼───────────────────────────┼────────────────────┼───────────┼──────────┼──────────┼────────────────┼────────────────────────┼─────────────────────┼─────────────────────┼─────────────┼──────────────────────┼──────────────────────┤
+│ 1   │ 12258  │ 10006      │ 142345  │ 2164-10-23 21:09:00 │ 2164-11-01 17:15:00 │ missing             │ EMERGENCY      │ EMERGENCY ROOM ADMIT      │ HOME HEALTH CARE   │ Medicare  │ missing  │ CATHOLIC │ SEPARATED      │ BLACK/AFRICAN AMERICAN │ 2164-10-23 16:43:00 │ 2164-10-23 23:00:00 │ SEPSIS      │ 0                    │ 1                    │
+│ 2   │ 12263  │ 10011      │ 105331  │ 2126-08-14 22:32:00 │ 2126-08-28 18:59:00 │ 2126-08-28 18:59:00 │ EMERGENCY      │ TRANSFER FROM HOSP/EXTRAM │ DEAD/EXPIRED       │ Private   │ missing  │ CATHOLIC │ SINGLE         │ UNKNOWN/NOT SPECIFIED  │ missing             │ missing             │ HEPATITIS B │ 1                    │ 1                    │
+
 =#
-
-# created filtered df
-# filtered_a_df = a_df[a_df[:hospital_expire_flag] .== 1, [:subject_id, :hadm_id, :insurance]]
-filtered_a_df = a_df[a_df.hospital_expire_flag .== 1, [:subject_id, :hadm_id, :insurance]]
-println(size(filtered_a_df))
-println(describe(filtered_a_df))
-println(first(filtered_a_df, 5))
-
-# write to output file
-CSV.write("methods2020_program5_output.txt", filtered_a_df)
-
-
-### ASSIGNMENT 15 ###
-# Same as Assignment 3 - question 2 
-# 1. Determine frequency of each marital status value as a DataFrame
-# 2. Sort results by frequency in descending order
-# 3. Write results into a file
-
-# get marital status counts
-ms_count_df = by(a_df, :marital_status, N = :marital_status => length)
-println(ms_count_df)
-sort!(ms_count_df, (:N), rev=(true))
-println(ms_count_df)
-CSV.write("methods2020_program5_output2.txt", ms_count_df)
-
-# Same as Assignment 3 - question 6
-# 1. Determine the top 5 most frequent ICD-9-CM codes (icd9_cm) in DIAGNOSES_ICD.csv.
-# Try seeing if you can do it in one line!
-
-d_df = CSV.File("/Users/eschen/methods2020/class_files-2020/data/mimic_demo/DIAGNOSES_ICD.csv", header=1, footerskip=0) |> DataFrame
-icd_count_df = first(sort!(by(d_df, :icd9_code, N = :icd9_code => length), (:N), rev=(true)), 5)
-println(icd_count_df)
