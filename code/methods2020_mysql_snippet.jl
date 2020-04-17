@@ -40,14 +40,14 @@ db_user = readline()
 # ask user to type in password
 db_password = get_pass()
 
-# create connection (emrbots_db)
+# create connection
 db_connection = MySQL.connect(DB_HOST, db_user, db_password; db = "$DB_NAME", opts=Dict(MySQL.API.MYSQL_ENABLE_CLEARTEXT_PLUGIN=>"true"))
 
 # get results as a DataFrame (tabular data structure)
 query_results_df = MySQL.Query(db_connection, QUERY) |>  DataFrame
 
 # close the MySQL connection
-MySQL.disconnect(emrbots_db)
+MySQL.disconnect(db_connection)
 
 # print out the size, number of rows and columns of the result set
 println("size = $(size(query_results_df))")
