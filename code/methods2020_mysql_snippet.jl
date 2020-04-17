@@ -58,4 +58,4 @@ println("columns = $(size(query_results_df, 2))")
 describe(query_results_df)
 
 # save the dataframe to a CSV
-CSV.write(, query_results_df)
+CSV.write(CSV_PATH, query_results_df)
