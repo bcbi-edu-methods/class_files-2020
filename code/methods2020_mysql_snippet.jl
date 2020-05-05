@@ -20,7 +20,8 @@ using CSV
 DB_HOST = "pursamydbcit.services.brown.edu"
 DB_NAME = "mimiciiiv14"
 QUERY = "SELECT ADMISSION_TYPE, INSURANCE, ETHNICITY, DIAGNOSIS FROM ADMISSIONS LIMIT 10;"
-CSV_PATH = "/Users/your_computer/methods2020/methods2020_my_final_project/data/admissions_info.csv"
+CSV_PATH = "/Users/your_computer/methods2020/methods2020_my_final_project/data/admissions_info.csv" # for Mac
+# CSV_PATH = "C:\\Users\\your_computer\\methods2020\\methods2020_my_final_project\\data\\admissions_info.csv" # for Windows
 
 # function for getting password (not shown)
 function get_pass(msg::String = "")
