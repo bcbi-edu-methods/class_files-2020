@@ -1,0 +1,163 @@
+$ julia methods2020_asg10.jl
+
+Enter a PubMed Title: Four Diseases, Two Associations, One Patient: A Case of Frontal Fibrosing Alopecia, Lichen Planus Pigmentosus, Acne Rosacea, and Morbihan Disease.
+# 27225129  Genome-wide association study identifies 74 loci associated with educational attainment.
+Number of Words = 20
+Number of Unique Words = 20
+
+Four = Starts with Letter
+Four = Convert to 4
+Diseases, = Starts with Letter
+Two = Starts with Letter
+Two = Convert to 2
+Associations, = Starts with Letter
+One = Starts with Letter
+One = Convert to 1
+Patient: = Starts with Letter
+A = Starts with Letter
+Case = Starts with Letter
+of = Starts with Letter
+Frontal = Starts with Letter
+Fibrosing = Starts with Letter
+Alopecia, = Starts with Letter
+Lichen = Starts with Letter
+Planus = Starts with Letter
+Pigmentosus, = Starts with Letter
+Acne = Starts with Letter
+Rosacea, = Starts with Letter
+and = Starts with Letter
+Morbihan = Starts with Letter
+Disease. = Starts with Letter
+Disease. = Ends with '.'
+
+Original title: Four Diseases, Two Associations, One Patient: A Case of Frontal Fibrosing Alopecia, Lichen Planus Pigmentosus, Acne Rosacea, and Morbihan Disease.
+New title (from string) = 4 Diseases, 2 Associations, 1 Patient: A Case of Frontal Fibrosing Alopecia, Lichen Planus Pigmentosus, Acne Rosacea, and Morbihan Disease.
+New title (from array) = 4 Diseases, 2 Associations, 1 Patient: A Case of Frontal Fibrosing Alopecia, Lichen Planus Pigmentosus, Acne Rosacea, and Morbihan Disease.
+New title (from regex) = 4 Diseases, 2 Associations, 1 Patient: A Case of Frontal Fibrosing Alopecia, Lichen Planus Pigmentosus, Acne Rosacea, and Morbihan Disease.
+
+Enter a PubMed Title: Genome-wide association study identifies 74 loci associated with educational attainment.
+
+Number of Words = 22
+Number of Unique Words = 14
+
+27225129 = Starts with Number
+Genome-wide = Starts with Letter
+association = Starts with Letter
+study = Starts with Letter
+identifies = Starts with Letter
+74 = Starts with Number
+loci = Starts with Letter
+associated = Starts with Letter
+with = Starts with Letter
+educational = Starts with Letter
+attainment.Genome-wide = Starts with Letter
+association = Starts with Letter
+study = Starts with Letter
+identifies = Starts with Letter
+74 = Starts with Number
+loci = Starts with Letter
+associated = Starts with Letter
+with = Starts with Letter
+educational = Starts with Letter
+attainment. = Starts with Letter
+attainment. = Ends with '.'
+
+Original title: # 27225129  Genome-wide association study identifies 74 loci associated with educational attainment.Genome-wide association study identifies 74 loci associated with educational attainment.
+New title (from string) = # 27225129  Genome-wide association study identifies 74 loci associated with educational attainment.Genome-wide association study identifies 74 loci associated with educational attainment.
+New title (from array) = # 27225129  Genome-wide association study identifies 74 loci associated with educational attainment.Genome-wide association study identifies 74 loci associated with educational attainment.
+New title (from regex) = # 27225129  Genome-wide association study identifies 74 loci associated with educational attainment.Genome-wide association study identifies 74 loci associated with educational attainment.
+
+Enter a PubMed Title: Six ways for governments to get value from health IT.
+
+Number of Words = 10
+Number of Unique Words = 10
+
+Six = Starts with Letter
+Six = Convert to 6
+ways = Starts with Letter
+for = Starts with Letter
+governments = Starts with Letter
+to = Starts with Letter
+get = Starts with Letter
+value = Starts with Letter
+from = Starts with Letter
+health = Starts with Letter
+IT. = Starts with Letter
+IT. = Ends with '.'
+
+Original title: Six ways for governments to get value from health IT.
+New title (from string) = 6 ways for governments to get value from health IT.
+New title (from array) = 6 ways for governments to get value from health IT.
+New title (from regex) = 6 ways for governments to get value from health IT.
+
+Enter a PubMed Title: Prosthetic joint infection following hip fracture and degenerative hip disorder: a cohort study of three thousand, eight hundred and seven consecutive hip arthroplasties with a minimum follow-up of five years.
+
+Number of Words = 30
+Number of Unique Words = 25
+
+Prosthetic = Starts with Letter
+joint = Starts with Letter
+infection = Starts with Letter
+following = Starts with Letter
+hip = Starts with Letter
+fracture = Starts with Letter
+and = Starts with Letter
+degenerative = Starts with Letter
+hip = Starts with Letter
+disorder: = Starts with Letter
+a = Starts with Letter
+cohort = Starts with Letter
+study = Starts with Letter
+of = Starts with Letter
+three = Starts with Letter
+three = Convert to 3
+thousand, = Starts with Letter
+eight = Starts with Letter
+eight = Convert to 8
+hundred = Starts with Letter
+and = Starts with Letter
+seven = Starts with Letter
+seven = Convert to 7
+consecutive = Starts with Letter
+hip = Starts with Letter
+arthroplasties = Starts with Letter
+with = Starts with Letter
+a = Starts with Letter
+minimum = Starts with Letter
+follow-up = Starts with Letter
+of = Starts with Letter
+five = Starts with Letter
+five = Convert to 5
+years. = Starts with Letter
+years. = Ends with '.'
+
+Original title: Prosthetic joint infection following hip fracture and degenerative hip disorder: a cohort study of three thousand, eight hundred and seven consecutive hip arthroplasties with a minimum follow-up of five years.
+New title (from string) = Prosthetic joint infection following hip fracture and degenerative hip disorder: a cohort study of 3 thousand, 8 hundred and 7 consecutive hip arthroplasties with a minimum follow-up of 5 years.
+New title (from array) = Prosthetic joint infection following hip fracture and degenerative hip disorder: a cohort study of 3 thousand, 8 hundred and 7 consecutive hip arthroplasties with a minimum follow-up of 5 years.
+New title (from regex) = Prosthetic joint infection following hip fracture and degenerative hip disorder: a cohort study of 3 thousand, 8 hundred and 7 consecutive hip arthroplasties with a minimum follow-up of 5 years.
+
+Enter a PubMed Title: 3D visualization environment for analysis of telehealth indicators in public health.
+
+Number of Words = 11
+Number of Unique Words = 11
+
+3D = Starts with Number
+visualization = Starts with Letter
+environment = Starts with Letter
+for = Starts with Letter
+analysis = Starts with Letter
+of = Starts with Letter
+telehealth = Starts with Letter
+indicators = Starts with Letter
+in = Starts with Letter
+public = Starts with Letter
+health. = Starts with Letter
+health. = Ends with '.'
+
+Original title: 3D visualization environment for analysis of telehealth indicators in public health.
+New title (from string) = 3D visualization environment for analysis of telehealth indicators in public health.
+New title (from array) = 3D visualization environment for analysis of telehealth indicators in public health.
+New title (from regex) = 3D visualization environment for analysis of telehealth indicators in public health.
+
+Enter a PubMed Title: qqq
+$
